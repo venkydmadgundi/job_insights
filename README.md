@@ -48,8 +48,8 @@ A lightweight, scalable Ruby on Rails microservice that provides:
 ### Local Setup and Rspec
 
 ```bash
-git clone https://github.com/your-org/job-insights-service.git
-cd job-insights-service
+git clone https://github.com/venkydmadgundi/job_insights.git
+cd job_insights
 
 # Build and start Docker containers
 docker-compose build
