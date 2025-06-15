@@ -1,0 +1,106 @@
+.
+├── Dockerfile
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── Rakefile
+├── app
+│   ├── controllers
+│   │   ├── application_controller.rb
+│   │   └── concerns
+│   ├── jobs
+│   │   └── application_job.rb
+│   ├── mailers
+│   │   └── application_mailer.rb
+│   ├── models
+│   │   ├── application_record.rb
+│   │   ├── concerns
+│   │   ├── industry.rb
+│   │   ├── job.rb
+│   │   ├── job_tag.rb
+│   │   ├── job_view.rb
+│   │   └── tag.rb
+│   └── views
+│       └── layouts
+├── base
+│   └── Dockerfile
+├── bin
+│   ├── brakeman
+│   ├── dev
+│   ├── docker-entrypoint
+│   ├── rails
+│   ├── rake
+│   ├── rubocop
+│   ├── setup
+│   └── thrust
+├── config
+│   ├── application.rb
+│   ├── boot.rb
+│   ├── cable.yml
+│   ├── credentials.yml.enc
+│   ├── database.yml
+│   ├── deploy.yml
+│   ├── environment.rb
+│   ├── environments
+│   │   ├── development.rb
+│   │   ├── production.rb
+│   │   └── test.rb
+│   ├── initializers
+│   │   ├── cors.rb
+│   │   ├── filter_parameter_logging.rb
+│   │   └── inflections.rb
+│   ├── locales
+│   │   └── en.yml
+│   ├── master.key
+│   ├── puma.rb
+│   └── routes.rb
+├── config.ru
+├── db
+│   ├── migrate
+│   │   ├── 20250610154609_create_industries.rb
+│   │   ├── 20250610160312_create_jobs.rb
+│   │   ├── 20250610162215_create_tags.rb
+│   │   ├── 20250610162442_create_job_tags.rb
+│   │   └── 20250610162700_create_job_views.rb
+│   └── seeds.rb
+├── docker-compose.yml
+├── docker-entrypoint.sh
+├── job-insights
+│   ├── Dockerfile
+│   ├── job_analytic_service.rb
+│   ├── job_insights_controller.rb
+│   └── routes.rb
+├── lib
+│   └── tasks
+├── log
+├── nginx
+│   └── default.conf
+├── public
+│   └── robots.txt
+├── script
+├── similar-jobs
+│   ├── Dockerfile
+│   ├── routes.rb
+│   ├── similar_jobs_controller.rb
+│   └── similar_jobs_service.rb
+├── spec
+│   ├── requests
+│   │   ├── job_insights_spec.rb
+│   │   └── similar_jobs_spec.rb
+│   └── services
+│       ├── job_analytic_service_spec.rb
+│       └── similar_jobs_service_spec.rb
+├── structure.txt
+├── test
+│   ├── controllers
+│   ├── fixtures
+│   │   └── files
+│   ├── integration
+│   ├── mailers
+│   ├── models
+│   └── test_helper.rb
+├── tmp
+│   └── pids
+└── vendor
+
+39 directories, 65 files
